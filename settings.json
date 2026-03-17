@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": " y123-J9mT.aternos.me:38681",
+    "ip": " y123-J9mT.aternos.me",
     "port": 38681,
     "version": "",
     "try-creative": true
@@ -31,9 +31,8 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "susmc is the best",
-        "I like to play Minecraft!"
+        "I'm a trapper!",
+        "susmc is the best"
       ]
     },
     "chat-log": true,
