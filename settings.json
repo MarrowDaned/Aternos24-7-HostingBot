@@ -1,15 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "susmc3",
-    "password": "Susmc1234",
+    "username": "Susmc3",
+    "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "y123-J9mT.aternos.me",
     "port": 38681,
-    "version": "",
-    "try-creative": true
+    "version": "1.21.11"
   },
   "position": {
     "enabled": true,
@@ -28,22 +27,28 @@
     },
     "chat-messages": {
       "enabled": false,
-      "repeat": true,
-      "repeat-delay": 120,
+      "repeat": false,
+      "repeat-delay": 500,
       "messages": [
-        "I'm a trapper!",
-        "susmc is the best"
+        "I'm a regular player",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-   "auto-reconnect-delay": 5000,
-"max-reconnect-delay": 300000
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 20000,
+    "periodic-rejoin": {
+      "enabled": true,
+      "min-interval": 20,
+      "max-interval": 60
+    }
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
-      "enabled": false,
+      "enabled": true,
       "radius": 4,
       "speed": 3000
     },
@@ -57,23 +62,23 @@
     }
   },
   "modules": {
-    "avoidMobs": false,
-    "combat": false,
-    "beds": false,
-    "chat": false,
+    "avoidMobs": true,
+    "combat": true,
+    "beds": true,
+    "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
+    "attack-mobs": true,
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": true,
-    "webhookUrl": "https://discord.com/api/webhooks/1259295525421842474/MDaTyhYyOUt9n3cF4NFeGTMxEtjiYLGECqFJzsSnSxzU5s66ZteBfAL4fnvt-y_MqRSD",
+    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
     "events": {
       "connect": true,
       "disconnect": true,
